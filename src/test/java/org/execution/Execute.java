@@ -114,7 +114,10 @@ public class Execute extends SeleniumBase {
 		SeleniumBase.clickByJava(openmenu);
 		WebElement Logout = Finish.getLogout();
 		SeleniumBase.clickByJSE(Logout);
+		System.out.println("Devloper is finished");
 		System.out.println("Tester is completed");
+		
+
 	}
 			
 }
